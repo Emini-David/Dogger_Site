@@ -518,11 +518,13 @@ nav .container .nav-links ul li a:hover{
 }
 #happy .containeer .cont-text1 p{
     background: var(--link-color);
-    padding: 2% 4%;
+    padding: 15% 4%;
+    height: 100%;
     font-style: italic;
-    font-size: 15px;
+    font-size: 20px;
     font-family: poppins;
     width: 100%;
+    text-align: center;
 }
 #happy .containeer .cont-text1 img{
     width: 50px;
@@ -657,4 +659,263 @@ nav .container .nav-links ul li a:hover{
 }
 #blog .mage-text1 .blog-text button:hover{
     cursor: pointer;
+}
+#services{
+   margin-bottom: 10%;
+   padding: 3rem 10%;
+   line-height: 3rem; 
+}
+#services .blogger{
+    text-align: center;
+}
+#services .blogger i{
+    align-items: center;
+    color: #a2c0be;
+}
+#services .blogger h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#services .blogger p{
+    font-size: 1rem;
+    color: #567876;
+    font-weight: lighter; 
+}
+#services .service{
+    display: flex;
+    gap: 3%;
+}
+#services .service .service-img{
+    margin-top: 5%;
+}
+#services .service .service-img img{
+    width: 25%;
+}
+#services .service .service-img h3{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+#services .service .service-img p{
+   font-size: 1rem;
+   color: #567876;
+   font-weight: lighter; 
+}
+.contact-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.contact-left {
+  flex: 1;
+  background-color: #9bbcb9;
+  padding: 50px 40px;
+}
+
+.contact-left h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  color: #4d6867;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 160px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #3e474f;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #5a646e;
+  color: #dfe4e7;
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.contact-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-right h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.contact-right p {
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #bcc9ce;
+}
+
+.contact-right p strong {
+  color: #fff;
+}
+.footer {
+  background-color: #2a2a2a;
+  color: #bbb;
+  padding: 60px 0 30px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-box {
+  flex: 1 1 220px;
+}
+
+.footer-box h3 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.footer-box p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #888;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footer-box ul li a:hover {
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #888;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 250px;
+  margin-top: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #ccc;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: none;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.footer hr {
+  margin: 40px auto 20px;
+  width: 90%;
+  border: 0.5px solid #444;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer-bottom a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+
+.footer-bottom .heart {
+  color: red;
 }
